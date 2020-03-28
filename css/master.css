@@ -83,7 +83,7 @@ body {
 }
 
 
-.text .check:before {
+.text.check:before {
   content: "Checked";
   color: #3498db;
 }
