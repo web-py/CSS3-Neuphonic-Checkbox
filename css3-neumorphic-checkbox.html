@@ -3,8 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>CSS3 - Neuphormic Checkbox</title>
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
+    <div class="button">
+      <div class="toggle">
+        <input type="checkbox" name="" value="">
+      </div>
+      <div class="text"></div>
+    </div>
 
+    <script>// for change text Uncheched to checked
+        document.querySelector('.toggle').addEventListner('click',function(){
+          document.querySelector('.text').classList.toggle('check');
+        });
+    </script>
   </body>
 </html>
